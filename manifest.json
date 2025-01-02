@@ -1,11 +1,28 @@
 {
-   "manifest_version":2,
-   "version":"1.0",
-   "name":"Suggest purge",
-   "content_scripts":[
-      {
-       "matches":["<all_urls>"],
-       "js":["main.js"]
-      }
-    ]
+   "manifest_version": 2,
+   "version": "1.0",
+   "name": "Suggest Purge",
+   "description": "Removes suggested content from web pages.",
+   "author": "Dominik Polzer", 
+   "homepage_url": "https://example.com", 
+   "icons": {
+     "48": "icons/icon-48.png",
+     "96": "icons/icon-96.png"
+   },
+   "content_scripts": [
+     {
+       "matches": ["<all_urls>"],
+       "js": ["main.js"]
+     }
+   ],
+   "applications": {
+     "gecko": {
+       "id": "suggest-purge@example.com"
+     }
+   },
+   "permissions": [
+     "activeTab",
+     "storage"
+   ]
  }
+ 

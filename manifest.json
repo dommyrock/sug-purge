@@ -1,8 +1,8 @@
 {
    "manifest_version": 2,
    "version": "1.0",
-   "name": "Suggest Purge",
-   "description": "Removes suggested content from web pages.",
+   "name": "Suggestions Purge",
+   "description": "Removes suggested spam content from Linkedin web pages.",
    "author": "Dominik Polzer", 
    "homepage_url": "https://example.com", 
    "icons": {

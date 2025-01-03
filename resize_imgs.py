@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Load the image
-img = Image.open("./icons/thumb_original.png")
+img = Image.open("./icons/thumb_hawk_retro.png")
 
 # Resize and save as 48x48
 img.resize((48, 48)).save("./icons/icon-48.png")

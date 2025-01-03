@@ -8,7 +8,7 @@ about:debugging#/runtime/this-firefox
 
 <https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/>
 
-### Other browsers should have simmilar page in their settigns
+### Other browsers should have simmilar page in their settings
 
 ...
 

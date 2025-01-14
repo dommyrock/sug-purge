@@ -86,3 +86,36 @@ zip -r suggestions-purge.zip .
 
 Account registration - devconsole
 <https://chrome.google.com/webstore/devconsole/register>
+
+
+#### Manifest v3 format
+
+Docs
+
+<https://developer.chrome.com/docs/extensions/reference/manifest>
+
+more complex Example
+
+<https://github.com/SimGus/chrome-extension-v3-starter/blob/master/manifest.json>
+
+#### V3 requires Extension Key to be present in the `manifest.json`
+
+- Chrome
+
+<https://developer.chrome.com/docs/extensions/reference/manifest/key>
+
+- Firefox (Gecko)
+
+<https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings>
+
+<https://extensionworkshop.com/documentation/develop/extensions-and-the-add-on-id/>
+
+
+### Privacy policy is published on github pages
+
+<https://dommyrock.github.io/sug-purge/>
+
+```bash
+# privacy branch contains all tne necesary static files for hosting privacy pages.
+git checkout privacy
+```

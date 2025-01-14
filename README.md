@@ -1,4 +1,12 @@
-# Firefox Temporary Web Extension settings
+# Released on Firefox
+
+<https://addons.mozilla.org/en-US/firefox/addon/suggestions-purge/>
+
+# Released on Chrome
+
+<TBD>
+
+## Firefox Temporary Web Extension settings
 
 ```bash
 about:debugging#/runtime/this-firefox
@@ -7,6 +15,19 @@ about:debugging#/runtime/this-firefox
 ## Docs
 
 <https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/>
+
+# Chrome Temparary Web Extension 
+
+```bash
+chrome://extensions/
+
+# Go to --> Load unpacked and navigate to dur. where your manifest.json is located
+```
+
+## Docs / Guide
+
+<https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world>
+
 
 ### Release scripts
 
@@ -58,3 +79,10 @@ zip -r suggestions-purge.zip .
 #### Firefox
 
 <https://extensionworkshop.com/documentation/publish/submitting-an-add-on/>
+
+#### Chrome
+
+<https://developer.chrome.com/docs/webstore/publish>
+
+Account registration - devconsole
+<https://chrome.google.com/webstore/devconsole/register>

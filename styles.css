@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+/* Header Styles */
+h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ececec;
+    padding-bottom: 5px;
+}
+
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Paragraph and Text Styling */
+p {
+    margin-bottom: 15px;
+}
+
+
+strong {
+    color: #3c61e7ba;
+}
+
+
+/* Link Styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+
+/* Additional Spacing */
+#privacy-policy-for-linkedin-suggestions-blocker {
+    margin-top: 0;
+}

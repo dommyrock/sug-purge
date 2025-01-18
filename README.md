@@ -4,7 +4,11 @@
 
 # Released on Chrome
 
-<TBD>
+<https://chromewebstore.google.com/detail/suggestions-purge/jkaiiahdebldjakiaegeoiemldkejfel>
+
+## Privacy  page
+
+<https://dommyrock.github.io/sug-purge/>
 
 ## Firefox Temporary Web Extension settings
 
@@ -16,18 +20,17 @@ about:debugging#/runtime/this-firefox
 
 <https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/>
 
-# Chrome Temparary Web Extension 
+## Chrome Temparary Web Extension
 
 ```bash
 chrome://extensions/
 
-# Go to --> Load unpacked and navigate to dur. where your manifest.json is located
+# --> Load unpacked and navigate to dir. where your manifest.json is located
 ```
 
 ## Docs / Guide
 
 <https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world>
-
 
 ### Release scripts
 
@@ -87,6 +90,10 @@ zip -r suggestions-purge.zip .
 Account registration - devconsole
 <https://chrome.google.com/webstore/devconsole/register>
 
+
+Dev store
+
+<https://chrome.google.com/webstore/devconsole>
 
 #### Manifest v3 format
 

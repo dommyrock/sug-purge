@@ -34,6 +34,20 @@ chrome://extensions/
 
 ### Release scripts
 
+Use `release.sh` to bump the version, stage artifacts into `release/`, and build
+`release/suggestions-purge.zip`:
+
+```bash
+./release.sh            # auto-bump the last version component (1.2 -> 1.3)
+./release.sh 2.0        # set an explicit version
+./release.sh --no-bump  # repackage with the current manifest version unchanged
+```
+
+Then upload the generated `release/suggestions-purge.zip` (see steps below).
+
+<details>
+<summary>Manual equivalent</summary>
+
 ```bash
 #create ne 'release' directory with needed artifacts
 mkdir -p release && cp manifest.json main.js release
@@ -45,6 +59,8 @@ cd release
 
 zip -r suggestions-purge.zip .
 ```
+
+</details>
 
 ### Follow next steps to publish your zipped artifacts
 

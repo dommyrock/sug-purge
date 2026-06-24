@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "1.1",
+  "version": "1.2",
   "name": "Suggestions Purge",
   "description": "Removes suggested spam content from Linkedin web pages.",
   "author": "Dominik Polzer",
